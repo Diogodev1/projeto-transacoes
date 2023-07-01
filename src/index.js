@@ -1,5 +1,5 @@
-import connectExpress from "./connectExpress";
-import connectMongoose from "./connectMongoose";
+import connectExpress from "./connectExpress.js";
+import connectMongoose from "./connectMongoose.js";
 
 connectExpress()
 connectMongoose(`mongodb://localhost/test`)
